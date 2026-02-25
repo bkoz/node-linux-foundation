@@ -1,0 +1,26 @@
+{
+  "name": "linux-foundation",
+  "version": "1.0.0",
+  "description": "Running through the Linux Foundation JavaScript Course",
+  "main": "index.js",
+  "scripts": {
+    "ch1": "node exercises/ch1-hello-world.js",
+    "ch2": "node exercises/ch2-async.js",
+    "ch3": "node exercises/ch3-fs.js",
+    "ch4": "node exercises/ch4-http.js",
+    "ch5": "node exercises/ch5-errors.js",
+    "test": "node exercises/ch1-hello-world.js && node exercises/ch2-async.js && node exercises/ch3-fs.js && node exercises/ch5-errors.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkoz/node-linux-foundation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bkoz/node-linux-foundation/issues"
+  },
+  "homepage": "https://github.com/bkoz/node-linux-foundation#readme"
+}
